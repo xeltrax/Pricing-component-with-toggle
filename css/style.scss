@@ -31,6 +31,7 @@ nav {
 .heading {
   width: 100%;
   padding: 1.6rem;
+  color: $Dark-Grayish-Blue;
 }
 
 .sub-select {
@@ -81,6 +82,23 @@ input:checked + .slider:before {
 
 .sub-select label {
   padding: 0.3rem;
+  font-weight: bold;
+  color: $Grayish-Blue;
+}
+
+.price-tag {
+  padding: 1.2rem;
+  font-size: 2.8rem;
+  font-weight: bold;
+  border-bottom: 0.5px solid $Light-Grayish-Blue;
+  color: $Dark-Grayish-Blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .small {
+    font-size: 1.6rem;
+    margin: 0.2rem;
+  }
 }
 
 .sub-cat {
@@ -97,6 +115,7 @@ input:checked + .slider:before {
     padding: 2rem;
     border-radius: 8px 0px 0px 8px;
     background-color: white;
+    box-shadow: -4px 4px 12px $Light-Grayish-Blue;
   }
 
   .prof {
@@ -110,6 +129,7 @@ input:checked + .slider:before {
     color: white;
     border-radius: 8px;
     padding: 3.2rem 2rem 2rem 2rem;
+    box-shadow: 0px 4px 12px $Light-Grayish-Blue;
 
     p {
       color: white;
@@ -119,7 +139,7 @@ input:checked + .slider:before {
       font-weight: bold;
     }
 
-    .price {
+    .price-tag {
       color: white;
       padding: 1.2rem;
       font-size: 2.8rem;
@@ -134,6 +154,7 @@ input:checked + .slider:before {
     background-color: white;
     border-radius: 0px 8px 8px 0px;
     padding: 2rem;
+    box-shadow: 4px 4px 12px $Light-Grayish-Blue;
   }
 }
 
@@ -147,21 +168,6 @@ p {
   border-bottom: 0.5px solid $Light-Grayish-Blue;
   color: $Grayish-Blue;
   font-weight: bold;
-}
-
-.price .small {
-  font-size: 1.6rem;
-}
-
-.price {
-  padding: 1.2rem;
-  font-size: 2.8rem;
-  font-weight: bold;
-  border-bottom: 0.5px solid $Light-Grayish-Blue;
-  color: $Dark-Grayish-Blue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .bg-light {
