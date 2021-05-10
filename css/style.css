@@ -235,7 +235,7 @@ p {
 
 @media (max-width: 475px) {
   body {
-    background-image: url("images/bg-top.svg");
+    background-image: url("../images/bg-top.svg");
     background-size: 200px 20rem;
     background-position: top right;
     background-repeat: no-repeat;
